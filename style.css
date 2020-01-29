@@ -2,7 +2,7 @@
 body {background-color: lightblue;}
 
 
-#h1{color:#001433; text-align: center;font-family: verdana;font-size: 100px}
+#h1{color:#b30000; text-align: center;font-family: Optima;font-size: 100px}
 
 #h2{color:#003380; text-align: center;font-family: verdana;font-size: 80px}
 
@@ -10,7 +10,25 @@ body {background-color: lightblue;}
 
 #h4{color:#1a75ff; text-align: center;font-family: verdana;font-size: 40px}
 
-#h5{color:#66a3ff; text-align: center;font-family: verdana;font-size: 20px}
+#h5{position: absolute;
+  left: 900px;
+  top: 700px;}
+
+#Q{color:#ffe6e6; text-align: center;font-family: courier;font-size: 20px}
 
 
-body{}
+
+
+
+.opt1{color:#66a3ff; text-align: ;font-family: verdana;font-size: 40px; position: absolute;
+  left: 450px;
+  top: 700px;}
+
+.opt2{color:#66a3ff; text-align: ;font-family: verdana;font-size: 40px; position: absolute;
+  left: 900px;
+  top: 700px;}
+
+.opt3{color:#66a3ff; text-align: ;font-family: verdana;font-size: 40px; position: absolute;
+  left: 1350px;
+  top: 700px;}
+

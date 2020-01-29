@@ -1,0 +1,208 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+
+	<title> Silent Knocks </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+
+
+</head>
+
+	
+
+	
+
+<body style="background-color: black;">
+<h1 id = "h1"> SILENT KNOCKS </h1>
+
+
+<div align="center">
+	
+<h4 id="Q"> You are watching a movie at home alone when you hear knocks from downstairs. </h4>
+
+<button id="1" onclick="answer1()">Go downstairs</button>
+<button id="2" onclick="answer2()">Stay in your room</button>
+</div>
+
+
+</div>
+
+
+
+<img src="/home/student/Documents/HTML lab1/bulb2.gif" style = "position: absolute;
+  left: 670px;
+  top: 360px;">
+
+
+	
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+		function answer1()
+		{
+			if (document.getElementById("1").innerHTML=="Go downstairs")
+			{
+				document.getElementById("Q").innerHTML="You go downstairs and you hear knocks from the front door. You approach the door."
+				document.getElementById("1").innerHTML="Look through the peephole"
+				document.getElementById("2").innerHTML="Ask who it is"	
+			}
+
+			else if (document.getElementById("1").innerHTML=="Look through the peephole")
+			{
+				document.getElementById("Q").innerHTML="You look through the peephole and you see a man you don't recognize staring right back at you."
+				document.getElementById("1").innerHTML="Hide inside"
+				document.getElementById("2").innerHTML="Invite him in"	
+			}
+			else if (document.getElementById("1").innerHTML=="Hide inside")
+			{
+				document.getElementById("Q").innerHTML="You hide inside your living room but you suddenly hear the man banging on the door with a sledge hammer."
+				document.getElementById("1").innerHTML="Get your own hammer"
+				document.getElementById("2").innerHTML="Call the cops"	
+			}
+			else if (document.getElementById("1").innerHTML=="Get your own hammer")
+			{
+				document.getElementById("Q").innerHTML="You get your own hammer and by now the door has been knocked down completely."
+				document.getElementById("1").innerHTML="Challenge him to a hammer duel"
+				document.getElementById("2").innerHTML="Run for your life"	
+			}
+			else if (document.getElementById("1").innerHTML=="Challenge him to a hammer duel")
+			{
+				document.getElementById("Q").innerHTML="You challenge him to a duel and he accepts. You completely destroy him and now you have a dead man in your living room"
+				document.getElementById("1").innerHTML="Call the cops"
+				document.getElementById("2").innerHTML="Wait for the neighbors to call the cops"	
+			}
+			else if (document.getElementById("1").innerHTML=="Call the cops")
+			{
+				document.getElementById("Q").innerHTML="You call the cops and at first they want to detain you but you tell them it was in self defense."
+				document.getElementById("1").innerHTML="You Win."
+				document.getElementById("2").innerHTML="Kinda"	
+			}
+			else if (document.getElementById("1").innerHTML=="Tell him your financial situation")
+			{
+				document.getElementById("Q").innerHTML="As you explain your financial situation to him and all the debt you owe, he comforts you and explains to you that everyone goes through hard times. He gives you 5 bucks and reads you a bedtime story."
+				document.getElementById("1").innerHTML=""
+				document.getElementById("2").innerHTML=""	
+			}
+			else if (document.getElementById("1").innerHTML=="Wait patiently for the cops")
+			{
+				document.getElementById("Q").innerHTML="The man gets to your room, its an armed robber - but he doesn't want to interupt your phone conversation."
+				document.getElementById("1").innerHTML="Tell him it won't be long"
+				document.getElementById("2").innerHTML="Hang up"	
+			}
+			else if (document.getElementById("1").innerHTML=="Tell him it won't be long")
+			{
+				document.getElementById("Q").innerHTML="He waits for a few minutes but realizing that it will take too long, he tells you that he will come back some other time."
+				document.getElementById("1").innerHTML=""
+				document.getElementById("2").innerHTML=""	
+			}
+			else if (document.getElementById("1").innerHTML=="Run to your room and hide")
+			{
+				document.getElementById("Q").innerHTML="You run to your room but you trip on your way up the stairs. A man emerges from behind the sofa and chases you down. He tackles you and slits your throat."
+				document.getElementById("1").innerHTML=""
+				document.getElementById("2").innerHTML=""	
+			}
+			else if (document.getElementById("1").innerHTML=="Go back to watching your movie")
+			{
+				document.getElementById("Q").innerHTML="You go back to watch your movie, a man suddenly intrudes into your room. He didn't seem to find anything of value so he sits with you for a while, watches the movie and heads out."
+				document.getElementById("1").innerHTML="Congrats."
+				document.getElementById("2").innerHTML="You Win!"	
+			}
+			else if (document.getElementById("1").innerHTML=="Wave at the guys in the van")
+			{
+				document.getElementById("Q").innerHTML="You wave over at them and they notice you. They signal you to come down and have an odd grin on their face."
+				document.getElementById("1").innerHTML="Go downstairs"
+				document.getElementById("2").innerHTML="Jump out your window"
+
+		}} 
+		function answer2(){
+			if (document.getElementById("2").innerHTML=="Stay in your room")
+			{
+				document.getElementById("Q").innerHTML="You stay in your room but you continue to hear the noises"
+				document.getElementById("1").innerHTML="Go downstairs"
+				document.getElementById("2").innerHTML="Look through the window"	
+			}
+			else if (document.getElementById("2").innerHTML=="Ask who it is")
+			{
+				document.getElementById("Q").innerHTML="You ask who it is but get no reply at first. You then hear someone whispering behind the sofa."
+				document.getElementById("1").innerHTML="Run to your room and hide"
+				document.getElementById("2").innerHTML="Chill on the sofa"	
+			}
+			else if (document.getElementById("2").innerHTML=="Invite him in")
+			{
+				document.getElementById("Q").innerHTML="You invite him in and he threatens to kill you if you don't give him money."
+				document.getElementById("1").innerHTML="Tell him your financial situation"
+				document.getElementById("2").innerHTML="Die with dignity"	
+			}
+			else if (document.getElementById("2").innerHTML=="Die with dignity")
+			{
+				document.getElementById("Q").innerHTML="R.I.P."
+				document.getElementById("1").innerHTML=""
+				document.getElementById("2").innerHTML=""	
+			}
+			else if (document.getElementById("2").innerHTML=="Call the cops")
+			{
+				document.getElementById("Q").innerHTML="You call the cops and they assure you that they will be there any minute. You now hear footsteps going up the stairs"
+				document.getElementById("1").innerHTML="Wait patiently for the cops"
+				document.getElementById("2").innerHTML="Jump out yourr window"	
+			}
+			else if (document.getElementById("2").innerHTML=="Jump out yourr window")
+			{
+				document.getElementById("Q").innerHTML="You live on the fourth floor and fall to your death."
+				document.getElementById("1").innerHTML=""
+				document.getElementById("2").innerHTML=""	
+			}
+			else if (document.getElementById("2").innerHTML=="Hang up")
+			{
+				document.getElementById("Q").innerHTML="You hang up on the cops and you get robbed."
+				document.getElementById("1").innerHTML=""
+				document.getElementById("2").innerHTML=""	
+			}
+			else if (document.getElementById("2").innerHTML=="Look through the window")
+			{
+				document.getElementById("Q").innerHTML="You look through the window but you don't see much other than the regular cars parked."
+				document.getElementById("1").innerHTML="Go back to watching your movie"
+				document.getElementById("2").innerHTML="Look out for a little longer"	
+			
+			}
+			else if (document.getElementById("2").innerHTML=="Look out for a little longer")
+			{
+				document.getElementById("Q").innerHTML="You keep looking out the window and after a while you see a strange van drive around your block, the van then stops in front of your house."
+				document.getElementById("1").innerHTML="Wave at the guys in the van"
+				document.getElementById("2").innerHTML="Lock all your doors"
+
+			}
+			else if (document.getElementById("2").innerHTML=="Lock all your doors")
+			{
+				document.getElementById("Q").innerHTML="As you go to lock all your doors you notice what looks like a figure like creature behind your sofa"
+				document.getElementById("1").innerHTML="Run to your room and hide"
+				document.getElementById("2").innerHTML="Chill on the sofa"	
+			}
+			else if (document.getElementById("2").innerHTML=="Chill on the sofa")
+			{
+				document.getElementById("Q").innerHTML="As you chill on the sofa you feel someone giving you a free back massage. He gives you his business card and then leaves your house."
+				document.getElementById("1").innerHTML="Congrats."
+				document.getElementById("2").innerHTML="You Win!"	
+			}
+			else if (document.getElementById("2").innerHTML=="Run for your life")
+			{
+				document.getElementById("Q").innerHTML="You run for your life but then you realize you're inside your 50 square foot. You make it to your kitchen and get cornered, only to be stabbed to death shortly after."
+				document.getElementById("1").innerHTML=""
+				document.getElementById("2").innerHTML=""	
+			}
+		}
+	</script>
+  
+ </body>
+
+</html>	
